@@ -1,0 +1,24 @@
+{
+    "name": "augustash/module-logger",
+    "description": "Simple module to write system/debug log messages to our own files to avoid all the white noise",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors":[
+        {
+            "name":"Josh Johnson",
+            "email":"josh@augustash.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Augustash\\Logger\\": ""
+        }
+    }
+}
